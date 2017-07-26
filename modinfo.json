@@ -1,0 +1,10 @@
+    {
+        "type": "MOD_INFO",
+        "ident": "GreatCata",
+        "name": "Great Cataclysm",
+        "author": "UnknownSurvivor",
+        "description": "Fix spoil time, animal packs, guns spawn etc. (set 30 days in season for correctly spoil time)",
+        "path": "",
+		"category": "rebalance",
+        "dependencies": [ "dda" ]
+    }
