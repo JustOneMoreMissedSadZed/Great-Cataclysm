@@ -1,5 +1,5 @@
-guns/ammo stacks/ 			- count and stack size * 0.4 (ammo)		- снижает колво патронов в спавнящемся стаке
-guns/dispersion fix/ 		- dispersion / 6 (except shotguns)		- увеличивает точность оружия (кроме дробовиков)
-guns/spawns/ 				- chance / 5 (guns and ammo)			- уменьшает спавн оружия и патронов
-food/spoil time fix.json 	- obviously, fix spoil time				- чинит срок порчи продуктов
-animal packs fix.json		- reduce animal spawn in packs			- снижает количество животных в стаях
+guns/ammo stacks/ 		    - count and stack size * 0.4 (ammo)		- снижает колво патронов в спавнящемся стаке
+guns/dispersion fix/ 	    - dispersion / 6 (except shotguns)		- увеличивает точность оружия (кроме дробовиков)
+guns/spawns/ 				      - chance / 5 (guns and ammo)			    - уменьшает спавн оружия и патронов
+food/spoil time fix.json 	- obviously, fix spoil time			    	- чинит срок порчи продуктов
+animal packs fix.json		  - reduce animal spawn in packs		  	- снижает количество животных в стаях
