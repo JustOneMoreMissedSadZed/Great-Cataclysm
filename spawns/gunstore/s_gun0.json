@@ -1,0 +1,95 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "s_gun" ],
+    "weight": 1000,
+    "object": {
+      "rows": [
+        "  ____________________  ",
+        "  *___*___*______*___*  ",
+        "  *___*___*______*___*  ",
+        "  *___*___*______*___*  ",
+        "  *___*___*______*___*  ",
+        "  *___*___*______*___*  ",
+        "  ---:::--------:::---  ",
+        "  |{....#...........{|  ",
+        "  |{....#...........{|  ",
+        "  |{....#...{{..{...{|  ",
+        "  |{....#...{{..{...{|  ",
+        "  |{....#...{{..{...{|  ",
+        "  |{....#...........{|  ",
+        "  |{............{{{{{|  ",
+        "  |-:::::::::::------|  ",
+        "  |..................|  ",
+        "  |--#--#--#--#--#--+|  ",
+        "  |..................|  ",
+        "  |..................|  ",
+        "  |..................|  ",
+        "  |..................|  ",
+        "  |..................|  ",
+        "  |..................|  ",
+        "  --------------------  "
+      ],
+      "place_terrain": [
+        { "ter": "t_door_metal_pickable", "x": [ 11, 14 ], "y": 6 },
+        { "ter": "t_door_metal_pickable", "x": [ 5, 14 ], "y": 14 }
+      ],
+      "terrain": {
+        " ": [ "t_grass", "t_grass", "t_grass", "t_dirt" ],
+        "#": "t_floor",
+        "*": "t_pavement_y",
+        "+": "t_door_metal_pickable",
+        "-": "t_wall",
+        ".": "t_floor",
+        ":": "t_window_bars_alarm",
+        "_": "t_pavement",
+        "{": "t_floor",
+        "|": "t_wall"
+      },
+      "furniture": {
+        "#": "f_counter",
+        "{": "f_rack"
+      },
+      "place_loot": [
+        { "group": "guns_pistol_common", "x": 12, "y": 9, "chance": 15, "magazine": 100 },
+        { "group": "guns_pistol_common", "x": 13, "y": 9, "chance": 15, "magazine": 100 },
+        { "group": "guns_pistol_common", "x": [ 12, 13 ], "y": 10, "chance": 20, "magazine": 100 },
+        { "group": "guns_pistol_rare", "x": 12, "y": 11, "chance": 3, "magazine": 100 },
+        { "group": "guns_pistol_rare", "x": 13, "y": 11, "chance": 3, "magazine": 100 },
+        { "group": "guns_shotgun_common", "x": 16, "y": 9, "chance": 10, "magazine": 100 },
+        { "group": "guns_shotgun_common", "x": 16, "y": 10, "chance": 20, "magazine": 100 },
+        { "group": "guns_shotgun_rare", "x": 16, "y": 11, "chance": 5, "magazine": 100 },
+        { "group": "guns_rifle_common", "x": 20, "y": 7, "chance": 5, "magazine": 100 },
+        { "group": "guns_rifle_rare", "x": 20, "y": 8, "chance": 5, "magazine": 100 },
+        { "group": "guns_rifle_common", "x": 20, "y": 9, "chance": 20, "magazine": 100 },
+        { "group": "guns_rifle_common", "x": 20, "y": 10, "chance": 10, "magazine": 100 },
+        { "group": "guns_rifle_common", "x": 20, "y": 11, "chance": 10, "magazine": 100 },
+        { "group": "guns_rifle_common", "x": 20, "y": 12, "chance": 10, "magazine": 100 },
+        { "group": "guns_smg_common", "x": 17, "y": 13, "chance": 17, "magazine": 100 },
+        { "group": "guns_smg_rare", "x": 18, "y": 13, "chance": 3, "magazine": 100 },
+        { "group": "ammo_common", "x": 3, "y": [ 11, 13 ], "chance": 20, "repeat": 2 },
+        { "group": "ammo_pistol_common", "x": 3, "y": 11, "chance": 20, "repeat": [ 1, 3 ] },
+        { "group": "ammo_shotgun_common", "x": 3, "y": 12, "chance": 15, "repeat": [ 1, 2 ] },
+        { "group": "ammo_rifle_common", "x": 3, "y": 13, "chance": 15, "repeat": [ 1, 2 ] },
+        { "group": "mags_common", "x": 3, "y": 10, "chance": 20 },
+        { "group": "mags_pistol_common", "x": 3, "y": 9, "chance": 20 },
+        { "group": "mags_rifle_common", "x": 3, "y": 8, "chance": 15 },
+        { "group": "mags_shotgun_common", "x": 3, "y": 7, "chance": 10 },
+        { "group": "mags_pistol_rare", "x": 3, "y": [ 7, 10 ], "chance": 10 },
+        { "group": "mags_rifle_rare", "x": 3, "y": [ 7, 10 ], "chance": 5 },
+        { "group": "mags_shotgun_rare", "x": 3, "y": [ 7, 10 ], "chance": 2 },
+        { "group": "book_gunmags", "x": 8, "y": [ 8, 9 ], "chance": 20 },
+        { "group": "book_gunmags", "x": 8, "y": [ 11, 12 ], "chance": 10 },
+        { "group": "guns_pistol_common", "x": 5, "y": 16, "chance": 4, "ammo": 5, "magazine": 100 },
+        { "group": "guns_pistol_rare", "x": 8, "y": 16, "chance": 4, "ammo": 15, "magazine": 100 },
+        { "group": "guns_pistol_obscure", "x": 11, "y": 16, "chance": 4, "ammo": 20, "magazine": 100 },
+        { "group": "guns_pistol_rare", "x": 14, "y": 16, "chance": 4, "ammo": 15, "magazine": 100 },
+        { "group": "guns_pistol_common", "x": 17, "y": 16, "chance": 4, "ammo": 5, "magazine": 100 }
+      ],
+      "place_monsters": [
+        { "monster": "GROUP_ZOMBIE", "x": [ 0, 0 ], "y": [ 23, 23 ], "chance": 2, "repeat": [ 2, 3 ] }
+      ]
+    }
+  }
+]
